@@ -947,7 +947,7 @@
 				<textElement>
 					<font fontName="Arial" size="5"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{hora}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[new java.sql.Time($F{hora}.getTime()).toLocalTime()]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="15" y="261" width="70" height="10" uuid="2a29f5c1-ab4a-4ce3-bbce-f1c23b1016db">
