@@ -34,30 +34,30 @@
 	</queryString>
 	<field name="concesionario" class="java.lang.String"/>
 	<field name="agencia" class="java.lang.String"/>
-	<field name="valor_vehiculo" class="java.math.BigDecimal"/>
-	<field name="fecha_firma" class="java.util.Date"/>
-	<field name="valor_accesorios" class="java.math.BigDecimal"/>
-	<field name="total_vehiculo" class="java.math.BigDecimal"/>
-	<field name="tasa_interes" class="java.math.BigDecimal"/>
-	<field name="tipo_plan" class="java.lang.String"/>
-	<field name="meses_gracia" class="java.lang.Integer"/>
+	<field name="valorVehiculo" class="java.math.BigDecimal"/>
+	<field name="fechaFirma" class="java.util.Date"/>
+	<field name="valorAccesorios" class="java.math.BigDecimal"/>
+	<field name="totalVehiculo" class="java.math.BigDecimal"/>
+	<field name="tasaInteres" class="java.math.BigDecimal"/>
+	<field name="tipoPlan" class="java.lang.String"/>
+	<field name="mesesGracia" class="java.lang.Integer"/>
 	<field name="endosante" class="java.lang.String"/>
 	<field name="aseguradora" class="java.lang.String"/>
 	<field name="ruc" class="java.lang.String"/>
-	<field name="numero_requerimiento" class="java.lang.Integer"/>
+	<field name="numeroRequerimiento" class="java.lang.Integer"/>
 	<field name="tasa" class="java.math.BigDecimal"/>
 	<field name="provincia" class="java.lang.String"/>
-	<field name="numero_telefono" class="java.lang.String"/>
+	<field name="numeroTelefono" class="java.lang.String"/>
 	<field name="direccion" class="java.lang.String"/>
 	<field name="canton" class="java.lang.String"/>
 	<field name="parroquia" class="java.lang.String"/>
 	<field name="institucion" class="java.lang.String"/>
-	<field name="tipo_cuenta" class="java.lang.String"/>
-	<field name="numero_cuenta" class="java.lang.String"/>
+	<field name="tipoCuenta" class="java.lang.String"/>
+	<field name="numeroCuenta" class="java.lang.String"/>
 	<field name="hora" class="java.sql.Time"/>
-	<field name="primera_cuota" class="java.util.Date"/>
+	<field name="primeraCuota" class="java.util.Date"/>
 	<field name="cargo" class="java.lang.String"/>
-	<field name="empresa_sector" class="java.lang.String"/>
+	<field name="empresaSector" class="java.lang.String"/>
 	<field name="observaciones" class="java.lang.String"/>
 	<background>
 		<band splitType="Stretch"/>
@@ -268,7 +268,7 @@
 				<textElement>
 					<font fontName="Arial" size="5"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{valor_vehiculo}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{valorVehiculo}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement mode="Transparent" x="97" y="53" width="110" height="10" forecolor="#030000" backcolor="#FFFFFF" uuid="baacead5-45f9-4b2b-b8ce-3de61ea5e24a">
@@ -285,7 +285,7 @@
 				<textElement>
 					<font fontName="Arial" size="5"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{valor_accesorios}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{valorAccesorios}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement mode="Transparent" x="97" y="63" width="110" height="10" forecolor="#030000" backcolor="#FFFFFF" uuid="3dfe1f5b-9cbe-4798-be76-18db5edc3542">
@@ -302,7 +302,7 @@
 				<textElement>
 					<font fontName="Arial" size="5"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{total_vehiculo}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{totalVehiculo}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement mode="Transparent" x="97" y="73" width="110" height="10" forecolor="#030000" backcolor="#FFFFFF" uuid="845c31fa-2e76-470c-ad8d-296b5b49fbb9">
@@ -319,7 +319,7 @@
 				<textElement>
 					<font fontName="Arial" size="5"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{tasa_interes}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{tasaInteres}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement mode="Transparent" x="97" y="83" width="110" height="10" forecolor="#030000" backcolor="#FFFFFF" uuid="baa6f667-d506-42c8-8a60-e919af247600">
@@ -336,7 +336,7 @@
 				<textElement>
 					<font fontName="Arial" size="5"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{tipo_plan}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{tipoPlan}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement mode="Transparent" x="97" y="93" width="110" height="10" forecolor="#030000" backcolor="#FFFFFF" uuid="61209c4f-4069-4fc3-921e-943e9c90b985">
@@ -353,7 +353,7 @@
 				<textElement>
 					<font fontName="Arial" size="5"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{meses_gracia}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{mesesGracia}]]></textFieldExpression>
 			</textField>
 			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 				<reportElement mode="Transparent" x="97" y="103" width="110" height="10" forecolor="#030000" backcolor="#FFFFFF" uuid="9a18bdfd-24be-4b7f-8380-777251574f88">
@@ -578,7 +578,7 @@
 				<textElement>
 					<font fontName="Arial" size="5"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{numero_requerimiento}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{numeroRequerimiento}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="14" y="32" width="70" height="10" uuid="9f0daed6-cebd-405d-ac81-70b91d03d41a">
@@ -604,7 +604,7 @@
 				<textElement>
 					<font fontName="Arial" size="5"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{numero_telefono}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{numeroTelefono}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="14" y="42" width="70" height="10" uuid="24b0d6dc-e355-4180-a5d3-500f2cd77a53">
@@ -755,7 +755,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Arial" size="5"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{tipo_cuenta}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{tipoCuenta}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="14" y="115" width="110" height="10" uuid="7fe04136-b9f7-4471-88d2-478430754590">
@@ -823,7 +823,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Arial" size="5"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{numero_cuenta}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{numeroCuenta}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement mode="Transparent" x="16" y="190" width="136" height="9" forecolor="#030000" uuid="4be84b35-08e9-4b08-8bf7-febc05524b2d">
@@ -930,7 +930,7 @@
 				<textElement>
 					<font fontName="Arial" size="5"/>
 				</textElement>
-				<textFieldExpression><![CDATA[(new SimpleDateFormat("dd/MM/yyyy").format($F{fecha_firma}))]]></textFieldExpression>
+				<textFieldExpression><![CDATA[(new SimpleDateFormat("dd/MM/yyyy").format($F{fechaFirma}))]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="85" y="251" width="164" height="10" uuid="6d03e09d-9310-4675-bc07-df66d183e031">
@@ -981,7 +981,7 @@
 				<textElement>
 					<font fontName="Arial" size="5"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{primera_cuota}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{primeraCuota}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="15" y="271" width="70" height="20" uuid="9d3299b9-5e6d-4ad6-8ff9-6823405db81b">
@@ -1015,7 +1015,7 @@
 				<textElement>
 					<font fontName="Arial" size="5"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{empresa_sector}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{empresaSector}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="139" y="271" width="110" height="10" uuid="5b5bf65e-3cc6-49d0-9098-cd5c4d12572a">
