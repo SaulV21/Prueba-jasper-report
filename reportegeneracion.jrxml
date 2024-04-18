@@ -98,7 +98,7 @@
 		</band>
 	</title>
 	<detail>
-		<band height="226" splitType="Stretch">
+		<band height="146" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<staticText>
 				<reportElement mode="Transparent" x="11" y="15" width="218" height="12" forecolor="#FF0516" uuid="4afb1e0c-a555-4f19-8b7b-6ecfe2e671bc"/>
@@ -385,19 +385,6 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$F{endosante}]]></textFieldExpression>
 			</textField>
-			<staticText>
-				<reportElement mode="Transparent" x="11" y="141" width="166" height="12" forecolor="#FF0516" uuid="073a73b0-6229-4089-94ea-fa790d9941f0"/>
-				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
-					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-				</box>
-				<textElement>
-					<font fontName="SansSerif" size="10" isBold="true"/>
-				</textElement>
-				<text><![CDATA[DISPOSITIVO]]></text>
-			</staticText>
 			<textField isBlankWhenNull="true">
 				<reportElement mode="Transparent" x="125" y="39" width="150" height="13" forecolor="#030000" backcolor="#FFFFFF" uuid="b29127bb-4e5f-427a-b321-88cd1cd14465">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -434,8 +421,10 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$F{concesionario}]]></textFieldExpression>
 			</textField>
+		</band>
+		<band height="25" splitType="Stretch">
 			<componentElement>
-				<reportElement x="11" y="153" width="360" height="10" uuid="171afb41-9145-4146-9c8d-d7fe579a0ee7">
+				<reportElement x="12" y="15" width="360" height="10" uuid="171afb41-9145-4146-9c8d-d7fe579a0ee7">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.CONTENTS.height" value="px"/>
@@ -478,7 +467,22 @@
 				</jr:list>
 			</componentElement>
 			<staticText>
-				<reportElement x="11" y="163" width="140" height="11" forecolor="#FF1205" uuid="49ac452f-a25d-48c6-b0b0-85342576c007">
+				<reportElement mode="Transparent" x="12" y="2" width="166" height="12" forecolor="#FF0516" uuid="073a73b0-6229-4089-94ea-fa790d9941f0"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DISPOSITIVO]]></text>
+			</staticText>
+		</band>
+		<band height="64">
+			<staticText>
+				<reportElement x="12" y="0" width="140" height="11" forecolor="#FF1205" uuid="49ac452f-a25d-48c6-b0b0-85342576c007">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -494,8 +498,25 @@
 				</textElement>
 				<text><![CDATA[TOTAL DEL DISPOSITIVO]]></text>
 			</staticText>
+			<textField textAdjust="ScaleFont" isBlankWhenNull="true">
+				<reportElement x="152" y="0" width="220" height="11" uuid="33182083-8510-4343-9782-dd8547092668">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="2">
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA["$ " + String.valueOf($F{totalDispositivo})]]></textFieldExpression>
+			</textField>
 			<staticText>
-				<reportElement x="11" y="183" width="140" height="11" forecolor="#FF1205" uuid="c1321765-c27a-499a-91ba-6ffdfb678149">
+				<reportElement x="12" y="21" width="140" height="11" forecolor="#FF1205" uuid="c1321765-c27a-499a-91ba-6ffdfb678149">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -511,8 +532,25 @@
 				</textElement>
 				<text><![CDATA[OTROS]]></text>
 			</staticText>
+			<textField textAdjust="ScaleFont" isBlankWhenNull="true">
+				<reportElement x="152" y="21" width="220" height="11" uuid="918fc385-1c36-47c0-9c90-618a8b3f6d32">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="2">
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA["$ " + String.valueOf($F{otros})]]></textFieldExpression>
+			</textField>
 			<staticText>
-				<reportElement x="11" y="194" width="140" height="11" forecolor="#FF1205" uuid="19d1a9de-c9a4-469e-b944-2b5153de25b5">
+				<reportElement x="12" y="32" width="140" height="11" forecolor="#FF1205" uuid="19d1a9de-c9a4-469e-b944-2b5153de25b5">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -528,8 +566,25 @@
 				</textElement>
 				<text><![CDATA[OBSERVACIONES OTROS]]></text>
 			</staticText>
+			<textField textAdjust="ScaleFont" isBlankWhenNull="true">
+				<reportElement x="152" y="32" width="220" height="11" uuid="857e731d-eab3-4d2f-b3b1-8abd6bec113e">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="2">
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{observacionesOtros}]]></textFieldExpression>
+			</textField>
 			<staticText>
-				<reportElement x="11" y="205" width="140" height="11" forecolor="#FF1205" uuid="4013068b-39ef-4dd2-8413-c521319ddc27">
+				<reportElement x="12" y="43" width="140" height="11" forecolor="#FF1205" uuid="4013068b-39ef-4dd2-8413-c521319ddc27">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -546,41 +601,7 @@
 				<text><![CDATA[PAGO]]></text>
 			</staticText>
 			<textField textAdjust="ScaleFont" isBlankWhenNull="true">
-				<reportElement x="151" y="183" width="220" height="11" uuid="918fc385-1c36-47c0-9c90-618a8b3f6d32">
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<box padding="2">
-					<pen lineWidth="0.25"/>
-					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
-					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
-					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
-					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
-				</box>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="SansSerif" size="6"/>
-				</textElement>
-				<textFieldExpression><![CDATA["$ " + String.valueOf($F{otros})]]></textFieldExpression>
-			</textField>
-			<textField textAdjust="ScaleFont" isBlankWhenNull="true">
-				<reportElement x="151" y="194" width="220" height="11" uuid="857e731d-eab3-4d2f-b3b1-8abd6bec113e">
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<box padding="2">
-					<pen lineWidth="0.25"/>
-					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
-					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
-					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
-					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
-				</box>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="SansSerif" size="6"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$F{observacionesOtros}]]></textFieldExpression>
-			</textField>
-			<textField textAdjust="ScaleFont" isBlankWhenNull="true">
-				<reportElement x="151" y="205" width="220" height="11" uuid="3c7c9f01-05d2-46e7-b702-34b1d6966a13">
+				<reportElement x="152" y="43" width="220" height="11" uuid="3c7c9f01-05d2-46e7-b702-34b1d6966a13">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -595,23 +616,6 @@
 					<font fontName="SansSerif" size="6"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{pago}]]></textFieldExpression>
-			</textField>
-			<textField textAdjust="ScaleFont" isBlankWhenNull="true">
-				<reportElement x="151" y="163" width="220" height="11" uuid="33182083-8510-4343-9782-dd8547092668">
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<box padding="2">
-					<pen lineWidth="0.25"/>
-					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
-					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
-					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
-					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
-				</box>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="SansSerif" size="6"/>
-				</textElement>
-				<textFieldExpression><![CDATA["$ " + String.valueOf($F{totalDispositivo})]]></textFieldExpression>
 			</textField>
 		</band>
 		<band height="62">
