@@ -839,7 +839,7 @@
 				<text><![CDATA[REFERENCIAS COMERCIALES]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="16" y="170" width="136" height="9" forecolor="#030000" uuid="66d7e3e1-12b5-4252-a08e-447f28d813ee">
+				<reportElement mode="Transparent" x="16" y="174" width="136" height="9" forecolor="#030000" uuid="66d7e3e1-12b5-4252-a08e-447f28d813ee">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
@@ -854,7 +854,7 @@
 				<text><![CDATA[REFERENCIAS PERSONALES]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="16" y="157" width="136" height="13" forecolor="#FF0516" uuid="0cb20f8c-2eb5-4598-bea7-058c7f89de28">
+				<reportElement mode="Transparent" x="16" y="159" width="136" height="13" forecolor="#FF0516" uuid="0cb20f8c-2eb5-4598-bea7-058c7f89de28">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
