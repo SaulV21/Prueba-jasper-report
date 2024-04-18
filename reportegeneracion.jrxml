@@ -839,7 +839,7 @@
 				<text><![CDATA[REFERENCIAS COMERCIALES]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="16" y="178" width="136" height="9" forecolor="#030000" uuid="66d7e3e1-12b5-4252-a08e-447f28d813ee">
+				<reportElement mode="Transparent" x="16" y="186" width="136" height="9" forecolor="#030000" uuid="66d7e3e1-12b5-4252-a08e-447f28d813ee">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
@@ -852,23 +852,6 @@
 					<font fontName="SansSerif" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[REFERENCIAS PERSONALES]]></text>
-			</staticText>
-			<staticText>
-				<reportElement mode="Transparent" x="14" y="161" width="136" height="14" forecolor="#FF0516" uuid="0cb20f8c-2eb5-4598-bea7-058c7f89de28">
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-				</reportElement>
-				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
-					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-				</box>
-				<textElement>
-					<font fontName="Arial Black" size="10" isBold="true"/>
-				</textElement>
-				<text><![CDATA[REFERENCIAS]]></text>
 			</staticText>
 			<staticText>
 				<reportElement mode="Transparent" x="15" y="230" width="136" height="13" forecolor="#FF0516" uuid="e47d4047-77e1-4afc-a155-ad934f5b6324">
@@ -1093,6 +1076,19 @@
 					<font fontName="SansSerif" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[ Empresa Sector:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="15" y="170" width="136" height="14" forecolor="#FF0516" uuid="d3afa64c-33c3-44cc-8c3c-a75fa90d773e"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[REFERENCIAS]]></text>
 			</staticText>
 		</band>
 	</detail>
