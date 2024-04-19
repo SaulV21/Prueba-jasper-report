@@ -490,7 +490,9 @@
 				</jr:list>
 			</componentElement>
 			<staticText>
-				<reportElement mode="Transparent" x="16" y="2" width="166" height="12" forecolor="#FF0516" uuid="073a73b0-6229-4089-94ea-fa790d9941f0"/>
+				<reportElement mode="Transparent" x="15" y="2" width="94" height="12" forecolor="#FF0516" uuid="073a73b0-6229-4089-94ea-fa790d9941f0">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
 				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -1073,7 +1075,7 @@
 		</band>
 		<band height="83" splitType="Stretch">
 			<staticText>
-				<reportElement mode="Transparent" x="14" y="1" width="136" height="14" forecolor="#FF0516" uuid="d3afa64c-33c3-44cc-8c3c-a75fa90d773e">
+				<reportElement mode="Transparent" x="15" y="1" width="86" height="14" forecolor="#FF0516" uuid="d3afa64c-33c3-44cc-8c3c-a75fa90d773e">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
 				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
@@ -1088,8 +1090,9 @@
 				<text><![CDATA[REFERENCIAS]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="15" y="17" width="136" height="9" forecolor="#030000" uuid="66d7e3e1-12b5-4252-a08e-447f28d813ee">
+				<reportElement mode="Transparent" x="16" y="17" width="136" height="9" forecolor="#030000" uuid="66d7e3e1-12b5-4252-a08e-447f28d813ee">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
 				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -1233,8 +1236,9 @@
 		</band>
 		<band height="67" splitType="Stretch">
 			<staticText>
-				<reportElement mode="Transparent" x="15" y="1" width="136" height="9" forecolor="#030000" uuid="4be84b35-08e9-4b08-8bf7-febc05524b2d">
+				<reportElement mode="Transparent" x="16" y="1" width="136" height="9" forecolor="#030000" uuid="4be84b35-08e9-4b08-8bf7-febc05524b2d">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
 				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -1377,7 +1381,7 @@
 		</band>
 		<band height="118">
 			<staticText>
-				<reportElement mode="Transparent" x="14" y="6" width="136" height="13" forecolor="#FF0516" uuid="e47d4047-77e1-4afc-a155-ad934f5b6324">
+				<reportElement mode="Transparent" x="15" y="6" width="136" height="13" forecolor="#FF0516" uuid="e47d4047-77e1-4afc-a155-ad934f5b6324">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
