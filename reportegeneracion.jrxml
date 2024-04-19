@@ -1154,7 +1154,7 @@
 								<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 								<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 							</box>
-							<textElement>
+							<textElement verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
 							<text><![CDATA[ NOMBRE]]></text>
@@ -1168,7 +1168,7 @@
 								<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 								<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 							</box>
-							<textElement>
+							<textElement verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
 							<text><![CDATA[ DIRECCION]]></text>
@@ -1182,7 +1182,7 @@
 								<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 								<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 							</box>
-							<textElement>
+							<textElement verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
 							<text><![CDATA[ TELEFONO]]></text>
@@ -1196,7 +1196,7 @@
 								<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 								<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 							</box>
-							<textElement>
+							<textElement verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
 							<text><![CDATA[ RELACION / PARENTESCO]]></text>
@@ -1298,7 +1298,7 @@
 								<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 								<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 							</box>
-							<textElement>
+							<textElement verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
 							<text><![CDATA[ NOMBRE]]></text>
@@ -1312,7 +1312,7 @@
 								<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 								<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 							</box>
-							<textElement>
+							<textElement verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
 							<text><![CDATA[ DIRECCION]]></text>
@@ -1326,7 +1326,7 @@
 								<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 								<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 							</box>
-							<textElement>
+							<textElement verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
 							<text><![CDATA[ TELEFONO]]></text>
@@ -1340,7 +1340,7 @@
 								<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 								<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
 							</box>
-							<textElement>
+							<textElement verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
 							<text><![CDATA[ RELACION / PARENTESCO]]></text>
