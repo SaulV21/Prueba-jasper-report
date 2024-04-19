@@ -658,7 +658,7 @@
 				<text><![CDATA[ASEGURADORA]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="11" y="30" width="110" height="10" forecolor="#FF1205" uuid="20b6cf2a-b92a-4f5f-adef-2707f7d13ec7">
+				<reportElement x="12" y="30" width="110" height="10" forecolor="#FF1205" uuid="20b6cf2a-b92a-4f5f-adef-2707f7d13ec7">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -675,7 +675,7 @@
 				<text><![CDATA[SEGURO]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
-				<reportElement x="11" y="40" width="110" height="13" uuid="19168132-4aa0-4fce-92cc-089455377cd0">
+				<reportElement x="12" y="40" width="110" height="13" uuid="19168132-4aa0-4fce-92cc-089455377cd0">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<box padding="2">
@@ -691,7 +691,7 @@
 				<textFieldExpression><![CDATA[$F{aseguradora}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="121" y="30" width="110" height="10" forecolor="#FF0905" backcolor="#FFFFFF" uuid="0d70f03f-c82f-47bf-92df-f8112462340c">
+				<reportElement x="122" y="30" width="110" height="10" forecolor="#FF0905" backcolor="#FFFFFF" uuid="0d70f03f-c82f-47bf-92df-f8112462340c">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -708,7 +708,7 @@
 				<text><![CDATA[TASA]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
-				<reportElement x="121" y="40" width="110" height="13" uuid="78f6f614-883a-4267-9e1f-fa77a10e6e6c">
+				<reportElement x="122" y="40" width="110" height="13" uuid="78f6f614-883a-4267-9e1f-fa77a10e6e6c">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -725,7 +725,7 @@
 				<textFieldExpression><![CDATA[$F{tasa}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="231" y="30" width="110" height="10" forecolor="#FF0905" uuid="1e542ad7-f5a9-45c6-9ee3-143ab2eb40b4">
+				<reportElement x="232" y="30" width="110" height="10" forecolor="#FF0905" uuid="1e542ad7-f5a9-45c6-9ee3-143ab2eb40b4">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -742,7 +742,7 @@
 				<text><![CDATA[RUC]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
-				<reportElement x="231" y="40" width="110" height="13" uuid="81bcfeeb-d32d-4ff3-a9bb-a18a5e094b8d">
+				<reportElement x="232" y="40" width="110" height="13" uuid="81bcfeeb-d32d-4ff3-a9bb-a18a5e094b8d">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<box padding="2">
@@ -1073,7 +1073,7 @@
 		</band>
 		<band height="83" splitType="Stretch">
 			<staticText>
-				<reportElement mode="Transparent" x="5" y="1" width="136" height="14" forecolor="#FF0516" uuid="d3afa64c-33c3-44cc-8c3c-a75fa90d773e">
+				<reportElement mode="Transparent" x="10" y="1" width="136" height="14" forecolor="#FF0516" uuid="d3afa64c-33c3-44cc-8c3c-a75fa90d773e">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
 				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
@@ -1088,7 +1088,7 @@
 				<text><![CDATA[REFERENCIAS]]></text>
 			</staticText>
 			<staticText>
-				<reportElement mode="Transparent" x="10" y="17" width="136" height="9" forecolor="#030000" uuid="66d7e3e1-12b5-4252-a08e-447f28d813ee">
+				<reportElement mode="Transparent" x="11" y="17" width="136" height="9" forecolor="#030000" uuid="66d7e3e1-12b5-4252-a08e-447f28d813ee">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
@@ -1103,7 +1103,7 @@
 				<text><![CDATA[REFERENCIAS PERSONALES]]></text>
 			</staticText>
 			<componentElement>
-				<reportElement x="12" y="29" width="360" height="50" uuid="d1b2500b-bd1d-46a2-af92-86812b4fdbd9">
+				<reportElement x="13" y="29" width="360" height="50" uuid="d1b2500b-bd1d-46a2-af92-86812b4fdbd9">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.CONTENTS.height" value="px"/>
@@ -1233,7 +1233,7 @@
 		</band>
 		<band height="67" splitType="Stretch">
 			<staticText>
-				<reportElement mode="Transparent" x="10" y="1" width="136" height="9" forecolor="#030000" uuid="4be84b35-08e9-4b08-8bf7-febc05524b2d">
+				<reportElement mode="Transparent" x="11" y="1" width="136" height="9" forecolor="#030000" uuid="4be84b35-08e9-4b08-8bf7-febc05524b2d">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
@@ -1248,7 +1248,7 @@
 				<text><![CDATA[REFERENCIAS COMERCIALES]]></text>
 			</staticText>
 			<componentElement>
-				<reportElement x="12" y="15" width="360" height="50" uuid="453c3a3f-0910-4432-b489-fd94f65eac34">
+				<reportElement x="13" y="15" width="360" height="50" uuid="453c3a3f-0910-4432-b489-fd94f65eac34">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.CONTENTS.height" value="px"/>
@@ -1377,7 +1377,7 @@
 		</band>
 		<band height="118">
 			<staticText>
-				<reportElement mode="Transparent" x="11" y="6" width="136" height="13" forecolor="#FF0516" uuid="e47d4047-77e1-4afc-a155-ad934f5b6324">
+				<reportElement mode="Transparent" x="10" y="6" width="136" height="13" forecolor="#FF0516" uuid="e47d4047-77e1-4afc-a155-ad934f5b6324">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
