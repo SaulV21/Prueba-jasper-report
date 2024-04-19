@@ -42,20 +42,20 @@
 		<queryString>
 			<![CDATA[]]>
 		</queryString>
-		<field name="nombrePersonal" class="java.lang.String"/>
-		<field name="direccionPersonal" class="java.lang.String"/>
+		<field name="nombre" class="java.lang.String"/>
+		<field name="direccion" class="java.lang.String"/>
 		<field name="parentesco" class="java.lang.String"/>
-		<field name="telefonoPersonal" class="java.lang.String"/>
+		<field name="telefono" class="java.lang.String"/>
 	</subDataset>
 	<subDataset name="referenciasComerciales" uuid="89839e6a-9577-4185-9745-919b4cf9ad69">
 		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
 		<queryString>
 			<![CDATA[]]>
 		</queryString>
-		<field name="nombreComercial" class="java.lang.String"/>
-		<field name="direccionComercial" class="java.lang.String"/>
-		<field name="parentescoComercial" class="java.lang.String"/>
-		<field name="telefonoComercial" class="java.lang.String"/>
+		<field name="nombre" class="java.lang.String"/>
+		<field name="direccion" class="java.lang.String"/>
+		<field name="parentesco" class="java.lang.String"/>
+		<field name="telefono" class="java.lang.String"/>
 	</subDataset>
 	<queryString>
 		<![CDATA[]]>
@@ -1100,7 +1100,7 @@
 							<textElement textAlignment="Left" verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{nombrePersonal}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
 						</textField>
 						<textField textAdjust="ScaleFont">
 							<reportElement x="100" y="10" width="200" height="10" uuid="60a2d6cd-a917-4018-a370-b8858b7823f0"/>
@@ -1114,7 +1114,7 @@
 							<textElement textAlignment="Left" verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{direccionPersonal}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{direccion}]]></textFieldExpression>
 						</textField>
 						<textField textAdjust="ScaleFont">
 							<reportElement x="100" y="20" width="200" height="10" uuid="ae7077fa-7a63-4753-b4d8-f05dea9e9fca"/>
@@ -1128,7 +1128,7 @@
 							<textElement textAlignment="Left" verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{telefonoPersonal}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{telefono}]]></textFieldExpression>
 						</textField>
 						<textField textAdjust="ScaleFont">
 							<reportElement x="100" y="30" width="200" height="10" uuid="a5607511-54dc-4f3d-97db-3d22bd976522"/>
@@ -1244,7 +1244,7 @@
 							<textElement textAlignment="Left" verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{nombreComercial}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
 						</textField>
 						<textField textAdjust="ScaleFont">
 							<reportElement x="100" y="10" width="200" height="10" uuid="44ed7c67-c8fb-4a04-bb1b-2b5a16d30639"/>
@@ -1258,7 +1258,7 @@
 							<textElement textAlignment="Left" verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{direccionComercial}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{direccion}]]></textFieldExpression>
 						</textField>
 						<textField textAdjust="ScaleFont">
 							<reportElement x="100" y="20" width="200" height="10" uuid="0388a599-3531-46eb-b383-0d75aeb4e5fd"/>
@@ -1272,7 +1272,7 @@
 							<textElement textAlignment="Left" verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{telefonoComercial}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{telefono}]]></textFieldExpression>
 						</textField>
 						<textField textAdjust="ScaleFont">
 							<reportElement x="100" y="30" width="200" height="10" uuid="06f48e16-62d5-4bd6-9ba8-acff997a0cda"/>
@@ -1286,7 +1286,7 @@
 							<textElement textAlignment="Left" verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{parentescoComercial}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[$F{parentesco}]]></textFieldExpression>
 						</textField>
 						<staticText>
 							<reportElement x="0" y="0" width="100" height="10" uuid="1486218a-eff0-43af-958d-a27e0b34e72a"/>
