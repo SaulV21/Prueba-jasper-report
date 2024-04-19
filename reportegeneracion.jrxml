@@ -1099,8 +1099,9 @@
 							</box>
 							<textElement textAlignment="Left" verticalAlignment="Middle">
 								<font size="7"/>
+								<paragraph lineSpacingSize="1.0"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[" " + $F{nombre}]]></textFieldExpression>
 						</textField>
 						<textField textAdjust="ScaleFont">
 							<reportElement x="100" y="10" width="200" height="10" uuid="60a2d6cd-a917-4018-a370-b8858b7823f0"/>
@@ -1114,7 +1115,7 @@
 							<textElement textAlignment="Left" verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{direccion}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[" " + $F{direccion}]]></textFieldExpression>
 						</textField>
 						<textField textAdjust="ScaleFont">
 							<reportElement x="100" y="20" width="200" height="10" uuid="ae7077fa-7a63-4753-b4d8-f05dea9e9fca"/>
@@ -1128,7 +1129,7 @@
 							<textElement textAlignment="Left" verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{telefono}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[" " + $F{telefono}]]></textFieldExpression>
 						</textField>
 						<textField textAdjust="ScaleFont">
 							<reportElement x="100" y="30" width="200" height="10" uuid="a5607511-54dc-4f3d-97db-3d22bd976522"/>
@@ -1142,7 +1143,7 @@
 							<textElement textAlignment="Left" verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{parentesco}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[" " + $F{parentesco}]]></textFieldExpression>
 						</textField>
 						<staticText>
 							<reportElement x="0" y="0" width="100" height="10" uuid="2ed6fecd-a7b4-4e06-b694-91078bab63b4"/>
@@ -1244,7 +1245,7 @@
 							<textElement textAlignment="Left" verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[" " + $F{nombre}]]></textFieldExpression>
 						</textField>
 						<textField textAdjust="ScaleFont">
 							<reportElement x="100" y="10" width="200" height="10" uuid="44ed7c67-c8fb-4a04-bb1b-2b5a16d30639"/>
@@ -1258,7 +1259,7 @@
 							<textElement textAlignment="Left" verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{direccion}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[" " + $F{direccion}]]></textFieldExpression>
 						</textField>
 						<textField textAdjust="ScaleFont">
 							<reportElement x="100" y="20" width="200" height="10" uuid="0388a599-3531-46eb-b383-0d75aeb4e5fd"/>
@@ -1272,7 +1273,7 @@
 							<textElement textAlignment="Left" verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{telefono}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[" " + $F{telefono}]]></textFieldExpression>
 						</textField>
 						<textField textAdjust="ScaleFont">
 							<reportElement x="100" y="30" width="200" height="10" uuid="06f48e16-62d5-4bd6-9ba8-acff997a0cda"/>
@@ -1286,7 +1287,7 @@
 							<textElement textAlignment="Left" verticalAlignment="Middle">
 								<font size="7"/>
 							</textElement>
-							<textFieldExpression><![CDATA[$F{parentesco}]]></textFieldExpression>
+							<textFieldExpression><![CDATA[" " + $F{parentesco}]]></textFieldExpression>
 						</textField>
 						<staticText>
 							<reportElement x="0" y="0" width="100" height="10" uuid="1486218a-eff0-43af-958d-a27e0b34e72a"/>
@@ -1399,7 +1400,7 @@
 				<text><![CDATA[ HORA]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
-				<reportElement x="110" y="20" width="297" height="13" uuid="c6f7dd9d-038e-482e-9f9f-55f944e75d7a">
+				<reportElement x="110" y="20" width="340" height="13" uuid="c6f7dd9d-038e-482e-9f9f-55f944e75d7a">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<box padding="2">
@@ -1415,7 +1416,7 @@
 				<textFieldExpression><![CDATA[(new SimpleDateFormat("dd/MM/yyyy").format($F{fechaFirma}))]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="110" y="33" width="297" height="13" uuid="6d03e09d-9310-4675-bc07-df66d183e031">
+				<reportElement x="110" y="33" width="340" height="13" uuid="6d03e09d-9310-4675-bc07-df66d183e031">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<box padding="2">
@@ -1447,7 +1448,7 @@
 				<text><![CDATA[ FECHA PRIMERA CUOTA]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
-				<reportElement x="110" y="46" width="297" height="13" uuid="248cc0d5-7d6a-4279-80b6-e6b14c09a530">
+				<reportElement x="110" y="46" width="340" height="13" uuid="248cc0d5-7d6a-4279-80b6-e6b14c09a530">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<box padding="2">
@@ -1479,7 +1480,7 @@
 				<text><![CDATA[ CLIENTE PEPS]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
-				<reportElement x="180" y="72" width="227" height="13" uuid="3306fb02-ebd9-4463-b42c-76bc84306819">
+				<reportElement x="180" y="72" width="270" height="13" uuid="3306fb02-ebd9-4463-b42c-76bc84306819">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<box padding="2">
@@ -1495,7 +1496,7 @@
 				<textFieldExpression><![CDATA[$F{empresaSector}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="180" y="59" width="227" height="13" uuid="5b5bf65e-3cc6-49d0-9098-cd5c4d12572a">
+				<reportElement x="180" y="59" width="270" height="13" uuid="5b5bf65e-3cc6-49d0-9098-cd5c4d12572a">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<box padding="2">
@@ -1527,7 +1528,7 @@
 				<text><![CDATA[ OBSERVACIONES]]></text>
 			</staticText>
 			<textField textAdjust="ScaleFont" isBlankWhenNull="true">
-				<reportElement x="110" y="85" width="297" height="13" uuid="fe8a053a-302c-4112-860e-74a91c1511dc">
+				<reportElement x="110" y="85" width="340" height="13" uuid="fe8a053a-302c-4112-860e-74a91c1511dc">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<box padding="2">
