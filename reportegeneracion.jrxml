@@ -1187,7 +1187,7 @@
 				<textFieldExpression><![CDATA[$F{numeroTelefono}]]></textFieldExpression>
 			</textField>
 		</band>
-		<band height="120" splitType="Stretch">
+		<band height="129" splitType="Stretch">
 			<staticText>
 				<reportElement mode="Transparent" x="15" y="1" width="86" height="14" forecolor="#FF0516" uuid="d3afa64c-33c3-44cc-8c3c-a75fa90d773e">
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -1220,7 +1220,7 @@
 				<text><![CDATA[REFERENCIAS PERSONALES]]></text>
 			</staticText>
 			<componentElement>
-				<reportElement x="16" y="28" width="240" height="90" uuid="d1b2500b-bd1d-46a2-af92-86812b4fdbd9">
+				<reportElement x="16" y="28" width="240" height="100" uuid="d1b2500b-bd1d-46a2-af92-86812b4fdbd9">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.CONTENTS.height" value="px"/>
@@ -1230,7 +1230,7 @@
 					<datasetRun subDataset="referenciasPersonales" uuid="cd436052-de46-4ed6-85f3-d760a4ad2c68">
 						<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($F{referenciasPersonales})]]></dataSourceExpression>
 					</datasetRun>
-					<jr:listContents height="90" width="240">
+					<jr:listContents height="100" width="240">
 						<textField textAdjust="ScaleFont">
 							<reportElement x="115" y="10" width="115" height="10" uuid="7971dbc0-b32f-47fc-902a-987fce6c11d1">
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -1527,7 +1527,7 @@
 				</jr:list>
 			</componentElement>
 		</band>
-		<band height="104" splitType="Stretch">
+		<band height="115" splitType="Stretch">
 			<staticText>
 				<reportElement mode="Transparent" x="16" y="1" width="136" height="9" forecolor="#030000" uuid="4be84b35-08e9-4b08-8bf7-febc05524b2d">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -1545,7 +1545,7 @@
 				<text><![CDATA[REFERENCIAS COMERCIALES]]></text>
 			</staticText>
 			<componentElement>
-				<reportElement x="18" y="12" width="240" height="90" uuid="453c3a3f-0910-4432-b489-fd94f65eac34">
+				<reportElement x="18" y="12" width="240" height="100" uuid="453c3a3f-0910-4432-b489-fd94f65eac34">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.CONTENTS.height" value="px"/>
@@ -1555,7 +1555,7 @@
 					<datasetRun subDataset="referenciasComerciales" uuid="d65e9d8e-6671-4f40-b73f-0cd4cd46b637">
 						<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($F{referenciasComerciales})]]></dataSourceExpression>
 					</datasetRun>
-					<jr:listContents height="90" width="240">
+					<jr:listContents height="100" width="240">
 						<textField textAdjust="ScaleFont">
 							<reportElement x="115" y="70" width="115" height="10" uuid="d8215248-9fa5-4085-8993-01fbc59c1fee">
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
